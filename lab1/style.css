@@ -1,0 +1,83 @@
+body{
+	background: lightgray;
+	font: caption;
+}
+
+#container{
+	width: 70%;
+	margin: 0px auto;
+	border: 1px solid black; /* mostrar los bordes*/
+}
+
+h1{
+	color: white;
+}
+
+header{
+	background: black;
+	height: 35px;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	/*line-height: 100px alinear el texto en la caja*/ 
+}
+
+nav{
+	background: red;
+	height: 50px;
+	width: 100%;
+	border-bottom: 1px solid black;
+
+}
+
+a{
+	font: caption;
+	color: black;
+}
+
+nav ul li{
+	float:left; /*Para que se floten a la izquierda*/
+	list-style: none; /*Quitarle cualquier estilo predeterminado*/
+    margin: 10px;
+    line-height: 2px;
+
+}
+
+.clearfix{
+	clear: both;
+}
+
+#content{
+	float: left;
+	width: calc(80% - 20px);
+	background: darkgray;
+	min-height: 500px; /* Minimo de altura*/
+	padding: 10px;
+}
+
+.article{
+	color: black;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.article h3{
+font-size: 25px;
+}
+
+aside{
+	float: left;
+	width: calc(20% - 20px);
+	background: gray;
+	min-height: 500px; /* Minimo de altura */
+	padding: 10px;
+}
+
+footer{
+   background: black;
+   color: white;
+   text-align: center; /* Alinear el texto al centro horizontalmente*/
+   height: 30px;
+   line-height: 30px; /* Alinear el texto al centro verticalmente*/	  
+
+}
