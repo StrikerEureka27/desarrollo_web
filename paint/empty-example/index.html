@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <title>p5.js example</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    h2{
+      padding: 0;
+      margin: 0;
+      padding-left: 10px;
+      font-family: 'Lobster', cursive;
+      color: white;
+    }
+
+    div{
+      padding: 0;
+      margin: 0;
+      /*background-image: url('https://i.imgur.com/65Jy635.jpg'); */
+      background-color: black; 
+      border: 1px solid gray;
+    }
+
+    button{
+      margin-bottom: 5px;
+    }
+  </style>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.1.4/lib/p5.min.js"></script>
+  <script src="p5.js"></script>
+  <script src="sketch.js"></script>
+</head>
+
+<body>
+  <div>
+  <h2>Paint Full Color<h2/>
+    <button id="forma" onclick="mouseForma()">Forma</button>
+    <button id="color" onclick="mouseColor()" >Color</button>
+    <button id="color" onclick="mouseMas()">+</button>
+    <button id="color" onclick="mouseMenos()">-</button>
+    <button id="clear" onclick="mouseClear()">Clear</button>
+    </div>
+</body>
+
+</html>
