@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Registrate</title>
+	<link rel="icon" href="img/Captura.ico">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/signup-style.css">
+    <script type="text/javascript" src="script/registrar.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+    <main>
+        <div class="background">
+            <div class="text">
+                <img src="img/blanco.png" class="logo">
+                <h1>Registrate</h1>
+                <p style="color: white;" ><strong>Ya tienes cuenta? </strong><a href="login.php"class="colorlogin"> Login</a></p>
+            </div>
+            <div id="registro" class="box">
+                <form class="form">
+                    <h3>Nombre</h3>
+                    <input type="text" class="fullname"  id="nombre" placeholder=" Ingresa tu nombre" required>
+                    <h3>Correo</h3>
+                    <input type="email" id="correo" class="email" placeholder=" Ingresa tu correo" required>
+                    <h3>Contraseña</h3>
+                    <input type="password" class="username" id="contrasenia" placeholder=" Ingresa tu contraseña" required>
+                    <h3>Confirme contraseña</h3>
+                    <input type="password" class="password" id="contrasenia2" placeholder=" Verifica tu contraseña" required>
+                    <button class="button" id="btn-reg" type="button" onclick="registrar()">Registrar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
